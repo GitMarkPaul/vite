@@ -21,4 +21,4 @@
 
         ——
         Suppress this warning by adding a "data-turbo-suppress-warning" attribute to: %s
-      `,e.outerHTML);e=e.parentElement}})(),window.Turbo=Oe,He(),document.addEventListener("turbo:load",(()=>{}));
+      `,e.outerHTML);e=e.parentElement}})(),window.Turbo=Oe,He();
