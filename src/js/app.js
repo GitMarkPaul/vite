@@ -1,5 +1,6 @@
 import '../sass/app.scss';
+import * as Turbo from "@hotwired/turbo";
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("turbo:load", () => {
 
 });

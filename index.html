@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vite Bundler</title>
+    <link rel="shortcut icon" href="/src/img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="/src/sass/app.scss">
     <style>
         #app {
@@ -14,8 +15,7 @@
             right: 0;
             transform: translateY(-50%);
             display: grid;
-            justify-content: center;
-            align-items: center;
+            justify-items: center;
             text-align: center;
         }
 
@@ -33,11 +33,13 @@
 </head>
 <body>
     <div id="app">
-        <h1>Vite Bundler</h1>
+        <img src="/src/img/logo.svg" width="100" alt="">
+        <h1>Vite Bundler | Home</h1>
+        <a href="index.html" data-turbo="true">Home</a>
+        <a href="about.html" data-turbo="true">About Us</a>
         <p>Vite Bundler for development automation</p>
     </div>
     
-    <!-- Scripts -->
     <script type="module" src="/src/js/app.js"></script>
 </body>
 </html>
